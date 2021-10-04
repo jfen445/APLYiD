@@ -2,18 +2,45 @@
 
 class Main {
     public static void main(String[] args) {
-        Person eddy = new Dev("Eddy");
-        Person andrew = new Dev("Andrew", "Is having merge conflicts");
+        Person dmitry = new Dev("Dmitry", "Destroys some PR");
+        Dev milad = new Dev("Milad", "Cries and pet Bailee");
+        Dev andrew = new Dev("Andrew", "Is having merge conflicts");
         Person loz = new Sale("Lawrence");
 
-        eddy.greet();
+        dmitry.greet();
         loz.greet();
+        milad.greet();
+        System.out.println("");
 
-        eddy.grumble();
+        dmitry.grumble();
         loz.grumble();
+        System.out.println("");
 
+        milad.takeNewStory();
+        milad.work();
+        milad.finishStory();
+        System.out.println("");
+
+        milad.takeNewStory();
+        milad.work();
+        milad.finishStory();
+        System.out.println("");
+
+        dmitry.invokePower();
+        milad.invokePower();
+        System.out.println("");
+
+        andrew.work();
+        andrew.finishStory();
+        andrew.takeNewStory();
+        andrew.takeNewStory();
+        andrew.work();
         andrew.invokePower();
-        loz.invokePower();
-        eddy.invokePower();
+        andrew.finishStory();
+        System.out.println("");
+
+        dmitry.invokePower();
+        andrew.getDummyTrophy();
+        loz.getDummyTrophy();
     }
 }

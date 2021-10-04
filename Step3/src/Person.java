@@ -14,6 +14,11 @@ public abstract class Person implements Potato{
     }
 
     @Override
+    public void getDummyTrophy() {
+        System.out.println("[" + name + "] Here's a trophy for you????????");
+    }
+
+    @Override
     public void invokePower() {
         if (this.power.equals("")) {
             System.out.println("[" + name + "] HIAAAAAAAAA !");

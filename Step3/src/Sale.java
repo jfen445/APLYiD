@@ -8,4 +8,9 @@ public class Sale extends Person{
         System.out.println("[" + name + "] " + "Grmblblblbl");
         System.out.println("[" + name + "] " + "Not gonna hit my target");
     }
+
+    @Override
+    public void getDummyTrophy() {
+        System.out.format("[" + name + "] " + "Uuuum what ?");
+    }
 }
