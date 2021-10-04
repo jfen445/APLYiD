@@ -5,6 +5,7 @@ public abstract class Shortcut {
     public static void incrementID() {
         //add one to the current ID
         Shortcut.id++;
+        System.out.format("[Shortcut] Story sc-%04d created\n", id);
     }
 
     public static int getId() {

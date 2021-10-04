@@ -16,7 +16,6 @@ public class Dev extends Person{
         if (!working) {
             Shortcut.incrementID();
             working = true;
-            System.out.format("[Shortcut] Story sc-%04d created\n", Shortcut.getId());
             System.out.format("[" + name + "] " + "Ok, working on sc-%04d\n", Shortcut.getId());
         } else {
             System.out.format("[" + name + "] " + "I need to finish my task before taking another one\n");
