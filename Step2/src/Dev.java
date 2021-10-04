@@ -8,4 +8,8 @@ public class Dev extends Person{
         super(name, power);
     }
 
+
+    public void powerLevel() {
+        System.out.println("[" + name + "] MY POWER LEVEL IS OVER 9000 HAHAHA");
+    }
 }

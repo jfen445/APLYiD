@@ -15,5 +15,12 @@ class Main {
         andrew.invokePower();
         loz.invokePower();
         eddy.invokePower();
+
+        Person josh = new Dev("Josh");
+        Person frieza = new Dev("Frieza", "All hail Vegeta, Prince Of No One!");
+
+        System.out.println("");
+        frieza.invokePower();
+        josh.powerLevel();
     }
 }

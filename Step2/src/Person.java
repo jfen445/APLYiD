@@ -14,6 +14,11 @@ public abstract class Person implements Potato{
     }
 
     @Override
+    public void powerLevel() {
+
+    }
+
+    @Override
     public void invokePower() {
         if (this.power.equals("")) {
             System.out.println("[" + name + "] HIAAAAAAAAA !");
