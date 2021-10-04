@@ -10,21 +10,21 @@ class Main {
         dmitry.greet();
         loz.greet();
         milad.greet();
-        System.out.println("");
+
         dmitry.grumble();
         loz.grumble();
-        System.out.println("");
+
         milad.takeNewStory();
         milad.work();
         milad.finishStory();
-        System.out.println("");
+
         milad.takeNewStory();
         milad.work();
         milad.finishStory();
-        System.out.println("");
+
         dmitry.invokePower();
         milad.invokePower();
-        System.out.println("");
+
         andrew.work();
         andrew.finishStory();
         andrew.takeNewStory();
@@ -32,7 +32,7 @@ class Main {
         andrew.work();
         andrew.invokePower();
         andrew.finishStory();
-        System.out.println("");
+
         dmitry.invokePower();
         andrew.getDummyTrophy();
         loz.getDummyTrophy();
